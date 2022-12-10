@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-##Commands you need :
+Commands you need :
  1. npm create-react-app food-to-fly
  2. npm install react
  3. npm view react version
