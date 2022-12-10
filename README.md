@@ -2,6 +2,19 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##Commands you need :
+ 1. npm create-react-app food-to-fly
+ 2. npm install react
+ 3. npm view react version
+ 4. npm install @material-ui/core @material-ui/icons
+ 5. npm install react-dom
+ 6. nstall react-router-dom
+ 7. nstall react-router-dom
+ 8. npm i redux-persistent
+ 9. npm install bootstrap@latest
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
