@@ -1,0 +1,21 @@
+footer {
+    border-top: 1.5px solid #000;
+    margin-top: 1.5rem;
+    padding: 2rem 0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-weight: 500;
+    max-width: 600px;
+    margin-right: .5rem;
+}
+
+
+@media screen and (max-width:576px) {
+    footer p {
+        font-size: 1.8rem;
+    }
+}

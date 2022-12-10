@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.mainmaincontainer{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin: 0 -70px;
+    background-image: url(./Login-back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 38rem;
+    
+    
+    @media only screen and (min-width: 360px) {
+      width: 80vw;
+      height: 90vh;
+      h4 {
+        font-size: small;
+      }
+    }
+    @media only screen and (max-width: 320px) {
+        width: 80vw;
+        height: 90vh;
+        hr {
+          margin-bottom: 0.3rem;
+        }
+        h4 {
+          font-size: small;
+        }
+        .inputcontainer
+        {
+            width:400px;
+        }
+      }
+    @media only screen and (min-width: 411px) {
+      width: 80vw;
+      height: 90vh;
+      .inputcontainer 
+      {
+          width:300px;
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      width: 80vw;
+      height: 80vh;
+      .inputcontainerc 
+      {
+          width:200px;
+      }
+    }
+    @media only screen and (min-width: 1024px) {
+      width: 70vw;
+      height: 50vh;
+      .inputcontainer
+      {
+          width:100px;
+      }
+    }
+    @media only screen and (min-width: 1280px) {
+      width: 30vw;
+      height: 80vh;
+    }
+}
+
+.maincontainer {
+    
+    width: 40%;
+    height: 37.5rem;
+    background-position: fixed;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    text-transform: uppercase;
+    
+}
+
+.text  {
+    /* margin: 3rem; */
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 22px;
+    /* color:  rgb(236, 3, 3); */
+    color: #e50000;
+    font-family: "Raleway", sans-serif;
+}
+
+label {
+    padding-right: 13px;
+}
+
+.inputcontainer {
+  padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    height: 20%;
+    width: 100%;
+   
+}
+
+input {
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    border-radius: 2rem;
+    height: 3rem;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    color: #2a2636b5;
+    font-size: 1rem;
+    font-weight: 100px;
+}
+
+input::placeholder {
+    font-size: 1rem;
+    color: #19171c5c;
+    font-weight: 100px;
+}
+
+input:focus {
+    display: inline-block;
+    box-shadow: 0 0 0 0.2rem rgb(212, 125, 125);
+    backdrop-filter: blur(12rem);
+    border-radius: 2rem;
+}
+.input1 , .input2 , .input3,.input4{
+    /* display: grid;  */
+    padding-top: 1rem;
+}
+.registerlink{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+
+}
+.btnsubmit{
+    font-weight:bolder;
+    background: linear-gradient(to right, #ff364a 0%);   
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    width: 30%;
+    height: 2.5rem;
+    color: white;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+

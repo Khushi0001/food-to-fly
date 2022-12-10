@@ -1,0 +1,52 @@
+.item {
+    width: 200px;
+    padding: 0 .8rem .8rem .8rem;
+    background-color: white;
+    border-radius: 30px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.item img {
+    margin-top: -3.5rem;
+    height: 300px;
+    object-fit: contain;
+}
+
+.item-footer-desc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-head-descr-p {
+    margin: 0;
+    margin-bottom: .5rem;
+}
+
+.item-head-desc {
+    text-align: left;
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-head-desc-name {
+    font-weight: 600;
+    font-size: .9rem;
+    text-transform: capitalize;
+    flex: 1;
+}
+
+.item-head-desc-info {
+    font-size: .1rem;
+    color: #a0a0a0;
+    
+}
+
+.item-footer-desc-price {
+    font-weight: 700;
+}

@@ -1,0 +1,7 @@
+.logo{
+    min-width: fit-content;
+}
+.logo img{
+    width: 7em;
+    margin-right: .4rem;
+}
