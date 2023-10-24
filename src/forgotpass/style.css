@@ -1,0 +1,54 @@
+.maincontainer1 {
+   width: 40%;
+   height: 18rem;
+   background-position: fixed;
+   background: rgba(255, 255, 255, 0.15);
+   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+   backdrop-filter: blur(8.5px);
+   -webkit-backdrop-filter: blur(8.5px);
+   border-radius: 10px;
+   text-transform: uppercase;
+}
+
+.mailtext  {
+   padding-top: 2rem;
+   text-align: center;
+   font-size: 18px;
+   color: #e50000;
+   font-family: "Raleway", sans-serif;
+}
+
+.forgotPasswordLink{
+   text-decoration: none;
+   display: flex;
+   justify-content:flex-end;
+   color: black;
+   padding-right: 20px;
+   font-weight: bolder;
+}
+
+.parent-input {
+   padding-top: 3rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+}
+.codebutton{
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 3rem;
+}
+.sendcode {
+   font-weight: bolder;
+   background: linear-gradient(to right, #ff364a 0%);
+   /* text-transform: uppercase; */
+   letter-spacing: 0.01rem;
+   width: 32%;
+   height: 2.5rem;
+   color: white;
+   border-radius: 2rem;
+   cursor: pointer;
+}
